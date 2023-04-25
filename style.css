@@ -1,0 +1,125 @@
+body{
+    overflow-x: hidden;
+    
+}
+.landpage{
+    background-image: url(images/dylan-calluy-JpflvzEl5cg-unsplash.jpg);
+    height: 900px;
+    background-size: cover;
+}
+.nav{
+
+    text-decoration: none;
+    margin:40px;
+    gap: 10%;
+    display: flex;
+}
+.secure{
+color: #87ca23;
+}
+.connect{
+  background-color:forestgreen; 
+  border-color: grey; 
+  padding: 1%;
+}
+.trust{
+    font-size: 50px;
+}
+.started{
+    background-color: lime;
+    padding: 1%;
+}
+.crypto{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.buy{
+    color: white;
+}
+.Prorctime{
+    background-color: lime;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+.three{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+}
+.four{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    gap: 80px;   
+}
+.thrice{
+    border: solid; 
+    border-radius: 20px; 
+    height: 200px;
+    background-color:#ced4da ;
+    
+}
+.thric{
+    border: solid; 
+    border-radius: 20px; 
+    height: 200px;
+    background-color:#ced4da ;
+    width: 100px;  
+}
+.trade{
+    background-color: lime;
+    padding: 15px;
+}
+.all{
+    border: solid;
+    border-radius: 20px;
+    height: 200px;
+    width: 100px;
+}
+.allll{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+}
+.countries{
+    margin-bottom: 100px;
+    background-color:#be4bdb;
+    height: 92%;
+}
+.invested{
+    /* margin-top: 40px; */
+    background-color:  #e599f7;
+    height: 92%;
+}
+.heading4{
+color: rgb(61, 146, 61);
+}
+.explore{
+    color: rgb(61, 146, 61);  
+}
+.net{
+    display: flex;
+    gap: 50px;
+    margin-top: 70px;
+}
+.fabio{
+    width: 500px;
+    height: 500px;
+}
+.end{
+    height: 300px;
+    width: 400px;
+}
+.portfolio{
+    display: flex;
+    gap: 50px;
+}
+.tab{
+   flex-direction: column;
+}
+/* .main{
+    background-color: black;
+} */
