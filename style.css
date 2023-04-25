@@ -6,6 +6,7 @@ body{
     background-image: url(images/dylan-calluy-JpflvzEl5cg-unsplash.jpg);
     height: 900px;
     background-size: cover;
+    color: whitesmoke; 
 }
 .nav{
 
@@ -35,6 +36,7 @@ color: #87ca23;
 }
 .buy{
     color: white;
+    font-size: 40px;
 }
 .Prorctime{
     background-color: lime;
@@ -42,6 +44,7 @@ color: #87ca23;
     grid-template-columns: repeat(5,1fr);
     font-size: 30px;
     margin-top: 150px;
+    color: black;
 }
 
 .three{
@@ -53,7 +56,8 @@ color: #87ca23;
 .four{
     display: grid;
     grid-template-columns: repeat(3,1fr); 
-    gap: 80px;   
+    gap: 80px; 
+    /* color: whitesmoke;   */
 }
 .thrice{
     border: solid; 
@@ -83,6 +87,7 @@ color: #87ca23;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-top: 50px;
+    color: whitesmoke; 
 }
 .countries{
     margin-bottom: 100px;
@@ -99,11 +104,14 @@ color: rgb(61, 146, 61);
 }
 .explore{
     color: rgb(61, 146, 61);  
+    background-color: transparent;
+    padding: 20px;
 }
 .net{
     display: flex;
     gap: 50px;
     margin-top: 70px;
+    color: whitesmoke; 
 }
 .fabio{
     width: 500px;
@@ -114,12 +122,41 @@ color: rgb(61, 146, 61);
     width: 400px;
 }
 .portfolio{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 50px;
+    color: whitesmoke; 
 }
 .tab{
-   flex-direction: column;
+display: flex;
+   color: whitesmoke; 
+   gap: 50px;
 }
-/* .main{
+.main{
     background-color: black;
-} */
+}
+table{
+    color: whitesmoke; 
+    width: 100%;
+    height: 500px;
+    gap: 20px;
+}
+ button{
+    background-color: rgb(202, 55, 80);
+    
+} 
+.percetage1{
+    color: red;
+}
+.percetage{
+    color: #87ca23;
+}
+.bt{
+    background-color: #87ca23;
+    padding: 30px;
+    border-radius: 20px;
+    width: 150px;
+}
+.buttt{
+    background-color: grey;
+}
